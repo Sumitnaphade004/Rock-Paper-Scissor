@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section h2{
+    width: 150px;
+}
+
+.computer-view {
+  display: flex;
+}
+
+.computer-img {
+  transform: rotate(180deg);
+}
+
+.computer-choice {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vs-img {
+    margin-left: 150px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.user-view {
+  display: flex;
+}
+
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.choice {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.choice-img {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+
+.score-card {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#userScore,
+#compScore {
+  font-size: 4rem;
+}
+
+.msgBox {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#msg {
+  display: inline;
+  background-color: black;
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 0.5rem;
+}
